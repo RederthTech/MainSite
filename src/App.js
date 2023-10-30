@@ -5,6 +5,7 @@ import Home from "./pages/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Citizenship from "./pages/citizenship/Citizenship";
 import Docs from "./pages/docs/Docs";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/citizenship" element={<Citizenship />} />
           <Route path="/docs" element={<Docs />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

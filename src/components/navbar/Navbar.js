@@ -7,12 +7,25 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary" style={{fontFamily: 'Lobster'}}>
+      <nav
+        className="navbar navbar-expand-lg bg-body-tertiary"
+        style={{ fontFamily: "Lobster" }}
+      >
         <div className="container-fluid">
-          <a className="navbar-brand" onClick={() => Navigate("/")} style={{cursor: 'pointer'}}>
+          <a
+            className="navbar-brand"
+            onClick={() => Navigate("/")}
+            style={{ cursor: "pointer" }}
+          >
             <img src={FLAG} width={"40px"} />
           </a>
-          <a className="navbar-brand" onClick={() => Navigate("/")} style={{cursor: 'pointer'}}>Rederth</a>
+          <a
+            className="navbar-brand"
+            onClick={() => Navigate("/")}
+            style={{ cursor: "pointer" }}
+          >
+            Rederth
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -26,14 +39,34 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link" aria-current="page" onClick={() => Navigate("/")} style={{cursor: 'pointer'}}>
+              <a
+                className="nav-link"
+                aria-current="page"
+                onClick={() => Navigate("/")}
+                style={{ cursor: "pointer" }}
+              >
                 Home
               </a>
-              <a className="nav-link" onClick={() => Navigate("/citizenship")} style={{cursor: 'pointer'}}>
+              <a
+                className="nav-link"
+                onClick={() => Navigate("/citizenship")}
+                style={{ cursor: "pointer" }}
+              >
                 Citizenship
               </a>
-              <a className="nav-link" onClick={() => Navigate("/docs")} style={{cursor: 'pointer'}}>
+              <a
+                className="nav-link"
+                onClick={() => Navigate("/docs")}
+                style={{ cursor: "pointer" }}
+              >
                 Documents
+              </a>
+              <a
+                className="nav-link"
+                onClick={() => Navigate("/employees")}
+                style={{ cursor: "pointer" }}
+              >
+                Employees
               </a>
             </div>
           </div>
