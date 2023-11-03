@@ -8,8 +8,9 @@ export default function Navbar() {
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg bg-body-tertiary"
-        style={{ fontFamily: "Lobster" }}
+        className="navbar navbar-expand-lg"
+        style={{ fontFamily: "Lobster",
+        backgroundColor: '#808080' }}
       >
         <div className="container-fluid">
           <a
@@ -20,14 +21,14 @@ export default function Navbar() {
             <img src={FLAG} width={"40px"} />
           </a>
           <a
-            className="navbar-brand"
+            className="navbar-brand text-light"
             onClick={() => Navigate("/")}
             style={{ cursor: "pointer" }}
           >
             Rederth
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler text-light"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -35,12 +36,12 @@ export default function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon text-light"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               <a
-                className="nav-link"
+                className="nav-link text-light"
                 aria-current="page"
                 onClick={() => Navigate("/")}
                 style={{ cursor: "pointer" }}
@@ -48,25 +49,25 @@ export default function Navbar() {
                 Home
               </a>
               <a
-                className="nav-link"
+                className="nav-link text-light"
                 onClick={() => Navigate("/citizenship")}
                 style={{ cursor: "pointer" }}
               >
                 Citizenship
               </a>
               <a
-                className="nav-link"
+                className="nav-link text-light"
                 onClick={() => Navigate("/docs")}
                 style={{ cursor: "pointer" }}
               >
                 Documents
               </a>
               <a
-                className="nav-link"
+                className="nav-link text-light"
                 onClick={() => Navigate("/employees")}
                 style={{ cursor: "pointer" }}
               >
-                Employees
+                Officials
               </a>
             </div>
           </div>

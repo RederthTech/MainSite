@@ -4,8 +4,7 @@
 /* Track (background) */
 ::-webkit-scrollbar {
   width: 10px;
-  background-color: #f5f5f5; /* Gray background color */
-  border-radius: 5px; /* Rounded corners */
+  background-color: #8b0100; /* Gray background color */
 }
 
 /* Handle (thumb) */
@@ -28,12 +27,12 @@
   text-align: center;
   /* Text color */
   color: black;
+  background-color: #8b0100;
 }
 
 * {
-  font-family: "roboto";
   /* Track (background) */
   /* For Firefox, Microsoft Edge, and other browsers */
   scrollbar-width: thin; /* "thin" or "auto" */
-  scrollbar-color: #f5f5f5 #ffffff; /* Gray background and white thumb color */
+  scrollbar-color: #f5f5f5 #8b0100; /* Gray background and white thumb color */
 }

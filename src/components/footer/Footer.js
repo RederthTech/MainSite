@@ -3,12 +3,17 @@ import FLAG from "../../content/img/flag.png";
 
 export default function Footer() {
   return (
-    <footer className="bg-light text-dark text-center p-4">
+    <footer
+      className="text-light text-center p-4 mt-5"
+      style={{
+        backgroundColor: "#808080",
+      }}
+    >
       <div className="container">
         <div className="row">
           <div className="col-md-4">
             <h5>About Rederth</h5>
-            <p className="text-muted text-center">
+            <p className="text-light text-center">
               Rederth, a thriving micronation led by Grand Duke Dylan I,
               champions diplomacy, cooperation, and international respect. This
               unique nation aspires to make its mark on the global stage,
@@ -22,7 +27,7 @@ export default function Footer() {
                 <a
                   href="https://discord.gg/Rnu8TnDkqV"
                   target="_blank"
-                  className="text-muted"
+                  className="text-light"
                 >
                   Official Discord Server
                 </a>
@@ -31,7 +36,7 @@ export default function Footer() {
                 <a
                   href="https://www.youtube.com/@RederthOfficial?sub_confirmation=1"
                   target="_blank"
-                  className="text-muted"
+                  className="text-light"
                 >
                   Official YouTube Channel
                 </a>
@@ -40,7 +45,7 @@ export default function Footer() {
                 <a
                   href="https://twitter.com/dylanI_rederth"
                   target="_blank"
-                  className="text-muted"
+                  className="text-light"
                 >
                   The Grand Duke's X (Formerly Twitter) Account
                 </a>
@@ -53,7 +58,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="py-2 text-muted" style={{ fontFamily: "Lobster" }}>
+      <div className="py-2 text-light" style={{ fontFamily: "Lobster" }}>
         &copy; {new Date().getFullYear} The Grand Duchy of Rederth. All rights
         reserved.
       </div>
