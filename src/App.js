@@ -2,8 +2,8 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
-import Navbar from "./components/navbar/Navbar";
 import Citizenship from "./pages/citizenship/Citizenship";
+import Navbar from "./components/navbar/Navbar";
 import Docs from "./pages/docs/Docs";
 import Footer from "./components/footer/Footer";
 
