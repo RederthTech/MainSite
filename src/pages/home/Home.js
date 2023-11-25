@@ -140,7 +140,6 @@ const Home = () => {
           </p>
           <script src="https://f.convertkit.com/ckjs/ck.5.js" />
           <form
-            style={{ width: "100%" }}
             action="https://app.convertkit.com/forms/5787027/subscriptions"
             method="post"
             target="_blank"
@@ -154,6 +153,7 @@ const Home = () => {
               borderColor: "#fff", // Red accent for border
               backgroundColor: '#808080',
               color: "white", // Text color
+              width: '100%'
             }}
           >
             <div data-element="column">
