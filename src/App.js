@@ -6,6 +6,9 @@ import Navbar from "./components/navbar/Navbar";
 import Docs from "./pages/docs/Docs";
 import Footer from "./components/footer/Footer";
 import Citizenship from "./pages/citizenship/Citizenship";
+import Navbar from "./components/navbar/Navbar";
+import Docs from "./pages/docs/Docs";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
