@@ -160,6 +160,7 @@ const Home = () => {
             action="https://gmail.us21.list-manage.com/subscribe/post?u=a57c300d3b8a3125f76b43e50&amp;id=d1c8aad631&amp;f_id=006beae6f0"
             method="post"
             target="_blank"
+            rel="noreferrer"
             data-sv-form="5787027"
             data-uid="c3e06350a9"
             data-format="inline"

@@ -28,6 +28,7 @@ export default function Footer() {
                   href="https://discord.gg/Rnu8TnDkqV"
                   target="_blank"
                   className="text-light"
+                  rel="noreferrer"
                 >
                   Official Discord Server
                 </a>
@@ -37,6 +38,7 @@ export default function Footer() {
                   href="https://www.youtube.com/@RederthOfficial?sub_confirmation=1"
                   target="_blank"
                   className="text-light"
+                  rel="noreferrer"
                 >
                   Official YouTube Channel
                 </a>
@@ -46,6 +48,7 @@ export default function Footer() {
                   href="https://twitter.com/dylanI_rederth"
                   target="_blank"
                   className="text-light"
+                  rel="noreferrer"
                 >
                   The Grand Duke's X (Formerly Twitter) Account
                 </a>

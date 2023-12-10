@@ -222,6 +222,7 @@ export default function Citizenship() {
                   "https://docs.google.com/document/d/1WXpmyDwinJfjSUb6vBaLcOmYuxWYfiBIStFtJ3mIKAk/edit?usp=sharing"
                 }
                 target="_blank"
+                rel="noreferrer"
               >
                 here
               </a>{" "}
