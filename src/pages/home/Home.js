@@ -4,6 +4,12 @@ import "./Home.css";
 
 const Home = () => {
 
+  const onSubmit = (e) => {
+    e.preventDefault();
+    const url = "https://gmail.us21.list-manage.com/subscribe/post?u=a57c300d3b8a3125f76b43e50&amp;id=d1c8aad631&amp;f_id=006beae6f0"
+
+  }
+
   return (
     <div
       className="container mx-auto"
@@ -37,16 +43,10 @@ const Home = () => {
             fontFamily: "roboto",
             fontSize: "19px",
             fontStyle: "italic",
-            backgroundColor: 'rgba(255,255,255,0.3)'
+            backgroundColor: "rgba(255,255,255,0.3)",
           }}
         >
-          Welcome to the Grand Duchy of Rederth, a thriving micronation under
-          the benevolent rule of the Honorable Grand Duke Dylan I. Rooted in a
-          vision of a brighter future, our micronation stands as a testament to
-          the power of determination and cooperation. Founded on the principles
-          of diplomacy, cooperation, and respect for international norms,
-          Rederth is on a mission to carve a unique place for itself on the
-          global stage.
+          Welcome to the Grand Duchy of Rederth, an Independent Sector of the Candrean Imperial Confederation, governed by His Grace Grand Duke Dylan I of Rederth. Established in the values of diplomacy, cooperation, and firm principles, this sector is incredibly dedicated to shaping a presence on the world stage. Embracing the tenets of monarchism and Candreanism, we weave a narrative of resilience and strength. The hallowed traditions of our heritage guide us as we navigate the complexities of the global stage with the grace and poise befitting true stewards of a noble legacy.
         </p>
       </header>
 
@@ -54,56 +54,67 @@ const Home = () => {
         <div className="col-md-6">
           <h1 style={{ fontFamily: "Lobster" }}>Our Mission</h1>
           <p>
-            Welcome to the Grand Duchy of Rederth, where dreams take shape on
-            the world stage. Our mission is to establish Rederth as a
-            recognized, public micronation with a substantial territory, and to
-            foster <strong>strong, positive relationships</strong> with the
-            international community.
+            Welcome to the Grand Duchy of Rederth, an Independent Sector of the Candrean Imperial Confederation. Our mission is to establish this Grand Duchy as a recognized, public entity with a substantial territory and to foster <strong>strong, positive relationships</strong> with the international community.
           </p>
           <p
             className="border border-danger p-3 shadow"
             style={{
               borderColor: "red", // Red accent for border
-              backgroundColor: '#808080'
+              backgroundColor: "#808080",
             }}
           >
-            <strong style={{ fontFamily: "Lobster" }}>1. Gaining Recognition:</strong> At the core of our mission is the pursuit of recognition on the global stage. We are committed to fulfilling the formalities and criteria necessary to become a recognized micronation, establishing our presence among nations worldwide.
+            <strong style={{ fontFamily: "Lobster" }}>
+              1. Gaining Recognition:
+            </strong>{" "}
+            At the core of our mission is the pursuit of recognition on the global stage. We are committed to fulfilling the formalities and criteria necessary to become a recognized entity, establishing our presence among nations worldwide.
           </p>
           <p
             className="border border-danger p-3 shadow"
             style={{
               borderColor: "red", // Red accent for border
-              backgroundColor: '#808080'
+              backgroundColor: "#808080",
             }}
           >
-            <strong style={{ fontFamily: "Lobster" }}>2. Expanding Our Territory:</strong> We are dedicated to acquiring and maintaining a significant amount of territory within the boundaries of Rederth. This expansion will provide our citizens with opportunities to explore, develop, and appreciate the diverse landscapes and regions that make our nation unique.
+            <strong style={{ fontFamily: "Lobster" }}>
+              2. Expanding Our Territory:
+            </strong>{" "}
+            We are dedicated to acquiring and maintaining a significant amount of territory within the boundaries of this Grand Duchy. This expansion will provide our citizens with opportunities to explore, develop, and appreciate the diverse landscapes and regions that make our Grand Duchy unique.
           </p>
           <p
             className="border border-danger p-3 shadow"
             style={{
               borderColor: "red", // Red accent for border
-              backgroundColor: '#808080'
+              backgroundColor: "#808080",
             }}
           >
-            <strong style={{ fontFamily: "Lobster" }}>3. Forging International Connections:</strong> Our mission extends beyond our borders. We are eager to establish fruitful relationships with other nations, organizations, and entities around the world. These connections will not only strengthen our global presence but also enrich the experiences of our citizens.
+            <strong style={{ fontFamily: "Lobster" }}>
+              3. Forging International Connections:
+            </strong>{" "}
+            Our mission extends beyond our borders. We are eager to establish fruitful relationships with other nations, organizations, and entities around the world. These connections will not only strengthen our global presence but also enrich the experiences of our citizens.
           </p>
           <p
             className="border border-danger p-3 shadow"
             style={{
               borderColor: "red", // Red accent for border
-              backgroundColor: '#808080'
+              backgroundColor: "#808080",
             }}
           >
-            <strong style={{ fontFamily: "Lobster" }}>4. A Nation Built on Values:</strong> Rederth is founded on the principles of diplomacy, cooperation, and respect for international norms. Our commitment to these values underpins our mission to be a valuable and peaceful member of the global community.
+            <strong style={{ fontFamily: "Lobster" }}>
+              4. A Nation Built on Values:
+            </strong>{" "}
+            This Grand Duchy is founded on the principles of diplomacy, cooperation, and respect for international norms. Our commitment to these values underpins our mission to be a valuable and peaceful member of the global community.
           </p>
           <p
             className="border border-danger p-3 shadow"
             style={{
               borderColor: "red", // Red accent for border
-              backgroundColor: '#808080'
+              backgroundColor: "#808080",
             }}
           >
-            <strong style={{ fontFamily: "Lobster" }}>5. A Promising Future:</strong> Join us in creating a future where Rederth is recognized, celebrated, and appreciated worldwide. As we build a recognized micronation with a significant territory and influential international ties, we invite you to be part of our journey, contributing to the development and growth of our nation.
+            <strong style={{ fontFamily: "Lobster" }}>
+              5. A Promising Future:
+            </strong>{" "}
+            Join us in creating a future where our Grand Duchy is recognized, celebrated, and appreciated worldwide. As we build a recognized entity with a significant territory and influential international ties, we invite you to be part of our journey, contributing to the development and growth of our Grand Duchy.
           </p>
         </div>
         <div className="col-md-6">
@@ -115,32 +126,38 @@ const Home = () => {
             className="border border-danger p-3 shadow"
             style={{
               borderColor: "red", // Red accent for border
-              backgroundColor: '#808080'
+              backgroundColor: "#808080",
             }}
           >
-            <strong style={{ fontFamily: "Lobster" }}>1. Stay Informed:</strong> By joining the Grand Duchy of Rederth's website newsletter, you gain exclusive access to the latest news, updates, and announcements from our micronation. Stay informed about important events, cultural developments, and government initiatives. This newsletter keeps you in the loop, ensuring you don't miss out on any of the exciting developments within our unique community.
+            <strong style={{ fontFamily: "Lobster" }}>1. Stay Informed:</strong>{" "}
+            By joining the Grand Duchy of Rederth website newsletter, you gain exclusive access to the latest news, updates, and announcements from our sector. Stay informed about important events, cultural developments, and government initiatives. This newsletter keeps you in the loop, ensuring you don't miss out on any of the exciting developments within our unique community.
           </p>
           <p
             className="border border-danger p-3 shadow"
             style={{
               borderColor: "red", // Red accent for border
-              backgroundColor: '#808080'
+              backgroundColor: "#808080",
             }}
           >
-            <strong style={{ fontFamily: "Lobster" }}>2. Engage with a Global Community:</strong> Micronations like Rederth are comprised of diverse individuals from around the world who come together to create something truly extraordinary. By subscribing to our newsletter, you become a part of this global community, where you can connect with like-minded people who share your passion for unique experiences and international collaboration.
+            <strong style={{ fontFamily: "Lobster" }}>
+              2. Engage with a Global Community:
+            </strong>{" "}
+            Sectors like ours are comprised of diverse individuals from around the world who come together to create something truly extraordinary. By subscribing to our newsletter, you become a part of this global community, where you can connect with like-minded people who share your passion for unique experiences and international collaboration.
           </p>
           <p
             className="border border-danger p-3 shadow"
             style={{
               borderColor: "red", // Red accent for border
-              backgroundColor: '#808080'
+              backgroundColor: "#808080",
             }}
           >
-            <strong style={{ fontFamily: "Lobster" }}>3. Exclusive Offers and Events:</strong> Members of our newsletter enjoy exclusive access to special offers, promotions, and events. Whether it's discounts on Rederth merchandise, invitations to cultural celebrations, or first access to unique experiences, being a subscriber opens doors to extraordinary opportunities that you won't find elsewhere.
+            <strong style={{ fontFamily: "Lobster" }}>
+              3. Exclusive Offers and Events:
+            </strong>{" "}
+            Members of our newsletter enjoy exclusive access to special offers, promotions, and events. Whether it's discounts on sector merchandise, invitations to cultural celebrations, or first access to unique experiences, being a subscriber opens doors to extraordinary opportunities that you won't find elsewhere.
           </p>
-          <script src="https://f.convertkit.com/ckjs/ck.5.js" />
           <form
-            action="https://app.convertkit.com/forms/5787027/subscriptions"
+            action="https://gmail.us21.list-manage.com/subscribe/post?u=a57c300d3b8a3125f76b43e50&amp;id=d1c8aad631&amp;f_id=006beae6f0"
             method="post"
             target="_blank"
             data-sv-form="5787027"
@@ -151,9 +168,9 @@ const Home = () => {
             className="border border-danger p-3 shadow mx-auto text-center" // Add Bootstrap classes
             style={{
               borderColor: "#fff", // Red accent for border
-              backgroundColor: '#808080',
+              backgroundColor: "#808080",
               color: "white", // Text color
-              width: '100%'
+              width: "100%",
             }}
           >
             <div data-element="column">
@@ -162,16 +179,6 @@ const Home = () => {
               </div>
               <ul data-element="errors" data-group="alert"></ul>
               <div data-element="fields">
-                <div className="mb-3">
-                  {/* Add margin for spacing */}
-                  <input
-                    name="email_address"
-                    placeholder="Your Email Address"
-                    required="yes"
-                    type="email"
-                    className="form-control text-center" // Add Bootstrap class
-                  />
-                </div>
                 <button data-element="submit" className="btn btn-danger">
                   <span>Subscribe</span>
                 </button>

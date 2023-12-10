@@ -64,7 +64,7 @@ export default function Navbar() {
               </a>
               <a
                 className="nav-link text-light"
-                onClick={() => Navigate("/employees")}
+                onClick={() => Navigate("/heads")}
                 style={{ cursor: "pointer" }}
               >
                 Officials
