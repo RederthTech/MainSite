@@ -180,7 +180,7 @@ const Heads = () => {
                       </div>
                       <div className="modal-body">
                         {/* Add contact information here */}
-                        Email: <a>{head.email}</a>
+                        Email: <a href="">{head.email}</a>
                       </div>
                       <div className="modal-footer">
                         <button

@@ -3,26 +3,36 @@ import { useNavigate } from "react-router-dom";
 import FLAG from "../../content/img/flag.png";
 
 export default function Navbar() {
-  const Navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <div>
       <nav
         className="navbar navbar-expand-lg"
-        style={{ fontFamily: "Lobster",
-        backgroundColor: '#808080' }}
+        style={{
+          fontFamily: "Lobster",
+          backgroundColor: "#808080",
+        }}
       >
         <div className="container-fluid">
           <a
+            href="/"
             className="navbar-brand"
-            onClick={() => Navigate("/")}
+            onClick={(e) => {
+              e.preventDefault();
+              navigate("/");
+            }}
             style={{ cursor: "pointer" }}
           >
-            <img src={FLAG} width={"40px"} />
+            <img src={FLAG} width={"40px"} alt="Flag" />
           </a>
           <a
+            href="/"
             className="navbar-brand text-light"
-            onClick={() => Navigate("/")}
+            onClick={(e) => {
+              e.preventDefault();
+              navigate("/");
+            }}
             style={{ cursor: "pointer" }}
           >
             Rederth
@@ -41,30 +51,46 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               <a
+                href="/"
                 className="nav-link text-light"
                 aria-current="page"
-                onClick={() => Navigate("/")}
+                onClick={(e) => {
+                  e.preventDefault();
+                  navigate("/");
+                }}
                 style={{ cursor: "pointer" }}
               >
                 Home
               </a>
               <a
+                href="/citizenship"
                 className="nav-link text-light"
-                onClick={() => Navigate("/citizenship")}
+                onClick={(e) => {
+                  e.preventDefault();
+                  navigate("/citizenship");
+                }}
                 style={{ cursor: "pointer" }}
               >
                 Citizenship
               </a>
               <a
+                href="/docs"
                 className="nav-link text-light"
-                onClick={() => Navigate("/docs")}
+                onClick={(e) => {
+                  e.preventDefault();
+                  navigate("/docs");
+                }}
                 style={{ cursor: "pointer" }}
               >
                 Documents
               </a>
               <a
+                href="/heads"
                 className="nav-link text-light"
-                onClick={() => Navigate("/heads")}
+                onClick={(e) => {
+                  e.preventDefault();
+                  navigate("/heads");
+                }}
                 style={{ cursor: "pointer" }}
               >
                 Officials
